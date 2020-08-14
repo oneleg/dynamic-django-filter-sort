@@ -1,0 +1,12 @@
+
+<html>
+    <body>
+        <div>
+            {% for each in items %}
+                name: {{each.name}}
+                <hr>
+                lessons count: {{each.lessons.count}}
+            {% endfor %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+
+<html>
+    <body>
+        <div>
+        {% for each in items %}
+            name: {{each.name}}
+            <hr>
+            lessons: 
+            {% for lesson in each.lessons.all %}
+                lesson_name: {{lesson.name}} | lesson_unit: {{lesson.unit}}
+            {% endfor %}
+        {% endfor %}
+        </div>
+    </body>
+</html>
