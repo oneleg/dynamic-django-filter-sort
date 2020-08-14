@@ -50,7 +50,9 @@ def parse_kwargs(obj, is_main, impermissibly_models=[]):
                 items = model_obj.objects.filter(**kwargs).order_by('%s'%(sort_type))
 
         if many == False:
-            return items.first()
+            print(items)
+            print(items)
+            return items[0]
         else:
             page = obj['page']
             show_article_count = 12
@@ -71,7 +73,7 @@ def parse_kwargs(obj, is_main, impermissibly_models=[]):
                 items = model_obj.objects.filter(**kwargs).order_by('%s'%(sort_type))
 
         if many == False:
-            return items.first()
+            return items[0]
         else:
             return items
 
