@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 ## Usage
 run project in example folder and in Postman call this url as POST "http://localhost:8000/filter_sort" 
 
-simple body for filter_sort is like this
+simple body for filter_sort is like this (body type is raw->json)
 ```JSON
 {
     "result_is_html": true,
