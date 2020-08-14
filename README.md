@@ -55,8 +55,7 @@ sorting desc or asc
 
 #### sort_type:
 
-The name of the field or function of your model that we want to sort## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+The name of the field or function of your model that we want to sort
 
 #### is_func_sort
 we sort on field or function if sorting with model function set true else set false
